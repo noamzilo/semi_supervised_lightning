@@ -1,0 +1,6 @@
+/.idea/*
+*.pyc
+/autoencoding/MNIST/*
+/checkpoints/*
+/tb_logs/*
+/toy_datasets/mnist/*

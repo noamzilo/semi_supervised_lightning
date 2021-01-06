@@ -1,0 +1,32 @@
+num_epochs: 2
+batch_size: 128
+learning_rate: 0.0001
+auto_lr_find: False
+
+noise_factor: 0.1
+regularization_factor: 0.0
+
+cluster_size: 5000
+n_clusters: 10
+centers_radius: 4.0
+train_size: 0.8
+val_size: 0.1
+num_workers: 1
+
+
+enc_layer_sizes_toy: [2, 200, 200, 200]
+dec_layer_sizes_toy: [200, 200, 200, 2]
+latent_dim_toy: 8
+
+enc_layer_sizes_mnist: [784, 512,]
+dec_layer_sizes_mnist: [512, 784]
+latent_dim_mnist: 25
+
+retrain_vae: False
+random_seed: 11
+is_deterministic: True
+
+dataset: "mnist" # toy, mnnist
+real_data_pd_dir: "D:/pressure_pd"
+
+frames_per_pd_sample: 500
